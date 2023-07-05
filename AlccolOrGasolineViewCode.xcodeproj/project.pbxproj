@@ -10,9 +10,16 @@
 		7B179C182A55876300546A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179C172A55876300546A1A /* AppDelegate.swift */; };
 		7B179C1A2A55876300546A1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179C192A55876300546A1A /* SceneDelegate.swift */; };
 		7B179C1C2A55876300546A1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179C1B2A55876300546A1A /* ViewController.swift */; };
-		7B179C1F2A55876300546A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B179C1D2A55876300546A1A /* Main.storyboard */; };
 		7B179C212A55876600546A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B179C202A55876600546A1A /* Assets.xcassets */; };
 		7B179C242A55876600546A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B179C222A55876600546A1A /* LaunchScreen.storyboard */; };
+		7B179C2F2A55A59D00546A1A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179C2E2A55A59D00546A1A /* HomeVC.swift */; };
+		7B179C312A55A60700546A1A /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179C302A55A60700546A1A /* HomeScreen.swift */; };
+		7B179C352A55B4C300546A1A /* CalculateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179C342A55B4C300546A1A /* CalculateVC.swift */; };
+		7B179C372A55B51E00546A1A /* CalculateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179C362A55B51D00546A1A /* CalculateScreen.swift */; };
+		7B179C3A2A55D9E500546A1A /* UIViewController+KeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179C392A55D9E500546A1A /* UIViewController+KeyboardDismiss.swift */; };
+		7B179C3E2A55E07700546A1A /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179C3D2A55E07700546A1A /* ResultVC.swift */; };
+		7B179C402A55E09C00546A1A /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B179C3F2A55E09C00546A1A /* ResultScreen.swift */; };
+		CD87230B9E01DF305CB1D7A3 /* Pods_AlccolOrGasolineViewCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2294146AD79A4DF7B8CC1B5 /* Pods_AlccolOrGasolineViewCode.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +27,19 @@
 		7B179C172A55876300546A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B179C192A55876300546A1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7B179C1B2A55876300546A1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7B179C1E2A55876300546A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B179C202A55876600546A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B179C232A55876600546A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B179C252A55876600546A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B179C2E2A55A59D00546A1A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		7B179C302A55A60700546A1A /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		7B179C342A55B4C300546A1A /* CalculateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateVC.swift; sourceTree = "<group>"; };
+		7B179C362A55B51D00546A1A /* CalculateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateScreen.swift; sourceTree = "<group>"; };
+		7B179C392A55D9E500546A1A /* UIViewController+KeyboardDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+KeyboardDismiss.swift"; sourceTree = "<group>"; };
+		7B179C3D2A55E07700546A1A /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		7B179C3F2A55E09C00546A1A /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
+		8B84AEC3547CACF9FA7ED27A /* Pods-AlccolOrGasolineViewCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlccolOrGasolineViewCode.debug.xcconfig"; path = "Target Support Files/Pods-AlccolOrGasolineViewCode/Pods-AlccolOrGasolineViewCode.debug.xcconfig"; sourceTree = "<group>"; };
+		B84E259EE5995FEDDB9ECF66 /* Pods-AlccolOrGasolineViewCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlccolOrGasolineViewCode.release.xcconfig"; path = "Target Support Files/Pods-AlccolOrGasolineViewCode/Pods-AlccolOrGasolineViewCode.release.xcconfig"; sourceTree = "<group>"; };
+		F2294146AD79A4DF7B8CC1B5 /* Pods_AlccolOrGasolineViewCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlccolOrGasolineViewCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD87230B9E01DF305CB1D7A3 /* Pods_AlccolOrGasolineViewCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A023316839932DCBCC65A59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2294146AD79A4DF7B8CC1B5 /* Pods_AlccolOrGasolineViewCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7B179C0B2A55876300546A1A = {
 			isa = PBXGroup;
 			children = (
 				7B179C162A55876300546A1A /* AlccolOrGasolineViewCode */,
 				7B179C152A55876300546A1A /* Products */,
+				A153693F3FDE0B3809098803 /* Pods */,
+				6A023316839932DCBCC65A59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,86 @@
 		7B179C162A55876300546A1A /* AlccolOrGasolineViewCode */ = {
 			isa = PBXGroup;
 			children = (
+				7B179C382A55D8B800546A1A /* Extension */,
+				7B179C3B2A55E05400546A1A /* Result */,
+				7B179C322A55B45600546A1A /* Calculate */,
+				7B179C2C2A55A54A00546A1A /* Home */,
 				7B179C172A55876300546A1A /* AppDelegate.swift */,
 				7B179C192A55876300546A1A /* SceneDelegate.swift */,
 				7B179C1B2A55876300546A1A /* ViewController.swift */,
-				7B179C1D2A55876300546A1A /* Main.storyboard */,
 				7B179C202A55876600546A1A /* Assets.xcassets */,
 				7B179C222A55876600546A1A /* LaunchScreen.storyboard */,
 				7B179C252A55876600546A1A /* Info.plist */,
 			);
 			path = AlccolOrGasolineViewCode;
+			sourceTree = "<group>";
+		};
+		7B179C2C2A55A54A00546A1A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7B179C2D2A55A58800546A1A /* Screen */,
+				7B179C2E2A55A59D00546A1A /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7B179C2D2A55A58800546A1A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				7B179C302A55A60700546A1A /* HomeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		7B179C322A55B45600546A1A /* Calculate */ = {
+			isa = PBXGroup;
+			children = (
+				7B179C332A55B45E00546A1A /* Screen */,
+				7B179C342A55B4C300546A1A /* CalculateVC.swift */,
+			);
+			path = Calculate;
+			sourceTree = "<group>";
+		};
+		7B179C332A55B45E00546A1A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				7B179C362A55B51D00546A1A /* CalculateScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		7B179C382A55D8B800546A1A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7B179C392A55D9E500546A1A /* UIViewController+KeyboardDismiss.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7B179C3B2A55E05400546A1A /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				7B179C3C2A55E05F00546A1A /* Screen */,
+				7B179C3D2A55E07700546A1A /* ResultVC.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		7B179C3C2A55E05F00546A1A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				7B179C3F2A55E09C00546A1A /* ResultScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		A153693F3FDE0B3809098803 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B84AEC3547CACF9FA7ED27A /* Pods-AlccolOrGasolineViewCode.debug.xcconfig */,
+				B84E259EE5995FEDDB9ECF66 /* Pods-AlccolOrGasolineViewCode.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B179C282A55876600546A1A /* Build configuration list for PBXNativeTarget "AlccolOrGasolineViewCode" */;
 			buildPhases = (
+				1F0C21F304074D9F3ADB4E61 /* [CP] Check Pods Manifest.lock */,
 				7B179C102A55876300546A1A /* Sources */,
 				7B179C112A55876300546A1A /* Frameworks */,
 				7B179C122A55876300546A1A /* Resources */,
+				6625888ECB5EBB756DCE6880 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +227,52 @@
 			files = (
 				7B179C242A55876600546A1A /* LaunchScreen.storyboard in Resources */,
 				7B179C212A55876600546A1A /* Assets.xcassets in Resources */,
-				7B179C1F2A55876300546A1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F0C21F304074D9F3ADB4E61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlccolOrGasolineViewCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6625888ECB5EBB756DCE6880 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlccolOrGasolineViewCode/Pods-AlccolOrGasolineViewCode-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlccolOrGasolineViewCode/Pods-AlccolOrGasolineViewCode-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlccolOrGasolineViewCode/Pods-AlccolOrGasolineViewCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B179C102A55876300546A1A /* Sources */ = {
@@ -139,7 +280,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B179C1C2A55876300546A1A /* ViewController.swift in Sources */,
+				7B179C352A55B4C300546A1A /* CalculateVC.swift in Sources */,
+				7B179C312A55A60700546A1A /* HomeScreen.swift in Sources */,
+				7B179C372A55B51E00546A1A /* CalculateScreen.swift in Sources */,
+				7B179C3A2A55D9E500546A1A /* UIViewController+KeyboardDismiss.swift in Sources */,
 				7B179C182A55876300546A1A /* AppDelegate.swift in Sources */,
+				7B179C402A55E09C00546A1A /* ResultScreen.swift in Sources */,
+				7B179C2F2A55A59D00546A1A /* HomeVC.swift in Sources */,
+				7B179C3E2A55E07700546A1A /* ResultVC.swift in Sources */,
 				7B179C1A2A55876300546A1A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +295,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7B179C1D2A55876300546A1A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B179C1E2A55876300546A1A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7B179C222A55876600546A1A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +422,7 @@
 		};
 		7B179C292A55876600546A1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B84AEC3547CACF9FA7ED27A /* Pods-AlccolOrGasolineViewCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +432,7 @@
 				INFOPLIST_FILE = AlccolOrGasolineViewCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +450,7 @@
 		};
 		7B179C2A2A55876600546A1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B84E259EE5995FEDDB9ECF66 /* Pods-AlccolOrGasolineViewCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,7 +460,7 @@
 				INFOPLIST_FILE = AlccolOrGasolineViewCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
