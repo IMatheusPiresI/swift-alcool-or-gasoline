@@ -6,9 +6,9 @@ Project repository **App Alcool or Gasoline** development with **Swift, UIKit, C
 
 <h3 id="acessar-projeto">📁 Preview</h3>
 <div style="text-align: center;">
-  <img src="./AlccolOrGasolineViewCode/Assets.xcassets/readme.imageset/readme.gif" alt="app" width="250px" height="490px"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./AlccolOrGasolineViewCode/Assets.xcassets/appAlcoolOrGasoline.dataset/appAlcoolOrGasoline.gif" alt="app" width="250px" height="490px"/>
 </div>
 
 
